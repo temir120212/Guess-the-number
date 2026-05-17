@@ -25,4 +25,4 @@ while True:
         print("The guessed number is lower!")
     else:
         print(f"Congratulations! You guessed it in {attempts} attempt(s)!")
-        break```
+        break
