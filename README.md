@@ -1,8 +1,8 @@
 # Guess-the-number
 A simple console-based "Guess the Number" game written in Python.
 
-
-`import random
+```python
+import random
 
 secret_number = random.randint(1, 100)
 attempts = 0
@@ -25,4 +25,4 @@ while True:
         print("The guessed number is lower!")
     else:
         print(f"Congratulations! You guessed it in {attempts} attempt(s)!")
-        break`
+        break```
